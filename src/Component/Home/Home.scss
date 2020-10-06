@@ -1,0 +1,22 @@
+#home {
+    background: url('../../images/parenting-3.jpg') no-repeat;
+    background-size: contain;
+    position: relative;
+    top: -61px;
+    z-index: 1;
+    padding-top: 157px;
+
+    .header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        h2 {
+            text-transform: uppercase;
+            font-size: 43px;
+            padding: 13px 0;
+            font-weight: 700;
+        }
+    }
+}

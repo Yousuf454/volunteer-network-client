@@ -1,0 +1,22 @@
+.child-info {
+    overflow: hidden;
+    position: relative;
+    border-radius: 12px;
+    margin: 15px 0;
+
+    img {
+        width: 100%;
+    }
+
+    h1 {
+        position: absolute;
+        background: rebeccapurple;
+        width: 100%;
+        bottom: -10px;
+        text-align: center;
+        color: #fff;
+        font-size: 21px;
+        text-transform: capitalize;
+        padding: 19px 0;
+    }
+}

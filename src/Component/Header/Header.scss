@@ -1,0 +1,33 @@
+#navbar {
+    position: relative;
+    background: transparent !important;
+    z-index: 2;
+
+    .navbar-brand {
+        width: 10%;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .nav-link {
+        color: black;
+        font-size: 20px;
+        font-weight: 400;
+        padding: 0 15px;
+    }
+
+    .register,
+    .admin {
+        background: #2566bd;
+        border-radius: 4px;
+        color: #fff;
+        padding: 5px 15px;
+    }
+
+    .admin {
+        background: #3e444a;
+        margin: 0 12px;
+    }
+}
